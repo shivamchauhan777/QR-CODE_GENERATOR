@@ -1,0 +1,1 @@
+# This is my first javascript mini project OR_CODE GENERATOR. 
