@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR CODE GENERATOR | Shivam Chauhan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="main">
+            <h2>GENERATE QR CODE</h2>
+            <div class="second"><input type="text" placeholder="Enter Your text here">
+            </div>
+            <div class="third">
+                <h4>Select Size:</h4>
+                <select id="third" name="size">
+                    <option value="100x100"> 100x100</option>
+                    <option value="200x200" >200x200</option>
+                    <option value="300x300" >300x300</option>
+                    <option value="400x400">400x400</option>
+                 
+                </select>
+                
+            </div>
+            <div class="QR">
+               
+            </div>
+            <div class="btn">
+                <button id="generate"><a href="">Generate QR</a></button>
+                <button id="download"> <a href="" download="QR_Code.png">Download</a></button>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+<script src="script.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+</html>
